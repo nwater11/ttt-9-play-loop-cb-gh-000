@@ -42,5 +42,4 @@ count = 0
   turn(board)
   count++
   end
-end  
-
+end
