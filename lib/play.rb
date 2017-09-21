@@ -39,7 +39,7 @@ end
 def play(board)
 count = 0
   loop count >= 10
-  turn(board)
+  do turn(board)
   count++
   end
 end
