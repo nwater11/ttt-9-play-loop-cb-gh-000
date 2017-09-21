@@ -38,8 +38,11 @@ end
 # Define your play method below
 def play(board)
 count = 0
-  loop count >= 10
-  do turn(board)
-  count++
+  loop do 
+    turn(board)
+    count += 1
+    if count >= 10
+      break  
+    end
   end
 end
