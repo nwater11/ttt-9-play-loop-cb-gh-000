@@ -41,4 +41,4 @@ count = 0
 loop count >= 10
 turn(board)
 count++
-end  
+end
